@@ -1,0 +1,25 @@
+11.SQL:Ans
+-----------
+create table employee(id int, name varchar(50),  desig varchar(50),  salary int);
+select * from employee;
+insert into employee values(1,'divya','tester',98000);
+insert into employee values(2,'harika','tester',48000);
+insert into employee values(3,'teju','developer',58000);
+insert into employee values(4,'krishna','tester',28000);
+insert into employee values(5,'Moulya','developer',28000);
+insert into employee values(6,'ammulu','tester',28000);
+insert into employee values(7,'Chinni','developer',88000);
+insert into employee values(8,'sandhya','tester',438000);
+insert into employee values(9,'saritha','developer',78000);
+insert into employee values(10,'durga','tester',28000);
+insert into employee values(11,'anjali','tester',289000);
+select * from employee;
+update employee set salary=50000 where id=5;
+select * from employee;
+delete from employee where id=11;
+select * from employee;
+select * from employee
+where id between 2 and 5;
+select * from employee
+order by salary;
+
